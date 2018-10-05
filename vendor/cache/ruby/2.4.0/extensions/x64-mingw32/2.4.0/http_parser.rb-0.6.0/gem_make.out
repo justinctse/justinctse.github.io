@@ -1,0 +1,31 @@
+current directory: D:/my_website/freelancer-theme/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20181002-8000-1i2571d.rb extconf.rb
+creating Makefile
+
+current directory: D:/my_website/freelancer-theme/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: D:/my_website/freelancer-theme/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+generating ruby_http_parser-x64-mingw32.def
+compiling ruby_http_parser.c
+In file included from C:/Ruby24-x64/include/ruby-2.4.0/ruby.h:33,
+                 from ruby_http_parser.c:1:
+C:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: 'const' attribute on function returning 'void' [-Wattributes]
+ CONSTFUNC(void rb_secure_update(VALUE));
+ ^~~~~~~~~
+In file included from C:/Ruby24-x64/include/ruby-2.4.0/ruby/ruby.h:2012,
+                 from C:/Ruby24-x64/include/ruby-2.4.0/ruby.h:33,
+                 from ruby_http_parser.c:1:
+C:/Ruby24-x64/include/ruby-2.4.0/ruby/intern.h:257:1: warning: 'const' attribute on function returning 'void' [-Wattributes]
+ CONSTFUNC(void rb_error_untrusted(VALUE));
+ ^~~~~~~~~
+C:/Ruby24-x64/include/ruby-2.4.0/ruby/intern.h:259:1: warning: 'const' attribute on function returning 'void' [-Wattributes]
+ CONSTFUNC(void rb_check_trusted(VALUE));
+ ^~~~~~~~~
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: D:/my_website/freelancer-theme/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20181002-8000-hvf5mv
