@@ -3,7 +3,7 @@ layout: default
 title: News Recommendation From Twitter Profiles
 modal-id: 1
 date: 2018-03-01
-img: cabin.png
+img: newsrec_v1.png
 alt: image-alt
 project-date: March 2018
 description: Let's use this post as a test post
