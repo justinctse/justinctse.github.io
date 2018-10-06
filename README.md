@@ -30,3 +30,14 @@ View this jekyll theme in action [here](https://jeromelachaud.github.io/freelanc
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
+
+I removed the following code to remove the contact me in default.html, if wanted put it after include about.html
+```
+    <!--{% if site.contact == "static" %}-->
+    <!--{% include contact_static.html %}-->
+    <!--{% elsif site.contact == "disqus" %}-->
+    <!--{% include contact_disqus.html %}-->
+    <!--{% else %}-->
+    <!--{% include contact.html %}-->
+    <!--{% endif %}-->
+```

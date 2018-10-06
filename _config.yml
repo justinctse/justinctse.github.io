@@ -35,7 +35,7 @@ color:
 # Footer settings
 footer:
   copyright: Justin Tse
-  location: Social Media
+  location: Contact
  #social: Around the Web
   credits: Credits
 
@@ -56,6 +56,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: <a href= "mailto:justinctse@gmail.com">email</a>
   - line: <a href = "https://www.linkedin.com/in/justinctse/">linkedin</a>
   - line: <a href = "https://github.com/justinctse">github</a>
   - line: <a href = "https://medium.com/@justinctse">medium</a>
