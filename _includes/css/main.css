@@ -50,7 +50,7 @@ hr.star-primary {
 hr.star-light:after,
 hr.star-primary:after {
     /*content: "\f005";*/ /*Star*/
-    content: "\f111"; /*Circle*/
+    content: ""; /*Put \f111 to get Circle*/
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -219,6 +219,7 @@ section.success {
     max-width: 400px;
 }
 
+/*This controls the hover effects of the portfolio items*/
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
