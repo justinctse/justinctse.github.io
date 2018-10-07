@@ -4,7 +4,7 @@ logo: <img src ="img/logo_v3_pad.png" height = "100" width = "100">
 name: Justin Tse
 email: justinctse@gmail.com
 url: https://justinctse.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Justin Tse's data science portfolio."
 keywords: "your keywords, separated by commas"
 skills: "Data Scientist based in <b>New York City</b>"
 meta_author: Tse Justin
