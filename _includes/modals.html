@@ -37,6 +37,12 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.tools %}
+                                    <li>Tools:
+                                        <strong><font color="#984B43">{{ post.tools }}</font>
+                                        </strong>
+                                    </li>
+                                {% endif %}
                                 {% if post.category %}
                                     <li>Service:
                                         <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
