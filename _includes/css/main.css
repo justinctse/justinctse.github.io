@@ -89,6 +89,8 @@ header {
     background: #{{ site.color.primary }};
 }
 
+
+
 /*Use a picture instead of the color block*/
 /*
 header {
@@ -195,6 +197,12 @@ section h2 {
 }
 
 section.success {
+    color: #fff;
+    background: #{{ site.color.primary }};
+    text-align:justify;
+}
+
+section.about {
     color: #fff;
     background: #{{ site.color.primary }};
     text-align:justify;
