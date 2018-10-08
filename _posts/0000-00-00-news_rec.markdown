@@ -2,10 +2,10 @@
 layout: default
 title: News Recommendation From Twitter Profiles
 modal-id: 1
-date: 2018-03-01
+date: 2018-04-01
 img: newsrec_v1.png
 alt: image-alt
-project-date: March 2018
+project-date: April 2018
 github-link: https://github.com/justinctse/NewsRecommendationTwitter
 tools: Python, Dash, R, RShiny
 description: <p> The goal for this project was to use a Twitter user’s tweets to recommend news articles that they would be interested in. Data was collected from the Twitter API, I separated different topics using hashtags. After processing the data I applied bag of words, SVM, multinomialNB, and logistic regression to classify the topic of a tweet. I then incorporated these models into apps that queried tweets from a chosen Twitter user and generated appropriate news topics.</p> <p>I created two versions of a news recommendation web app. The RShiny app can be found <a href ="https://justintse.shinyapps.io/newsrectwitter/">here</a>. I have also made an alternate app using Python and Dash that can be accessed by running <a href = "https://github.com/justinctse/NewsRecommendationTwitter/blob/master/Apps/News_Recommender_Dash_GUI.py">this file</a>.</p> <br><a href = "img/news_rec_app.png"><img src = "img/news_rec_app.png" class="img-responsive img-centered"></a><i>GUI for the Dash based recommendation system.</i>
